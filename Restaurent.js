@@ -44,7 +44,7 @@ function prev(){
     index = (index - 1 + slides.length) % slides.length;
     slides[index].classList.add('active');
 }
-let countDate = new Date('september 30, 2023 00:00:00').getTime();
+let countDate = new Date('march 30, 2024 00:00:00').getTime();
 function countDown() {
     let now = new Date().getTime();
     gap = countDate - now;
